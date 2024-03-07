@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ezenfinalpage/css/index.css'>
+ 
+</head>
+<body>
+     <!-- ============== 헤더 =================== -->
+     <div id="header">
+
+        <!-- 1. 로고 -->
+        <h1>   
+            <img src="img/logo.png"/> <!-- 이미지 삽입이 가능한 마크업 -->
+        </h1>
+        
+                    <!-- 2. 상단 메뉴 -->
+                    <ul>
+                        <li> <a href="/index.html">HOME</a> </li>
+                        <li> <a href="/calender.html">SCHEDULE</a> </li>
+                        <li> <a href="#">BLOG</a> </li>
+                        <li> <a href="#">SHOP</a> </li>
+                        <li> <a href="#">CONTACT</a> </li>
+                    </ul>
+        
+                </div>  
+        
+                <!-- ============== 본문 =================== -->
+                <div id="container">
+                    <!-- ============== 본문의 메인 구역  =================== -->
+                    <div id="main">
+                        
+                        <!-- 1. 본문 제목 -->
+                        <h3>스케줄 달력</h3>
+                        
+                        <!-- 2. 달력 전체 구역 -->
+                        <div> <!-- div : 구역/박스 모델 마크업 display : block(한줄차지) -->
+        
+                            <div class="topCal">    <!-- 2-1 달력 상단 -->
+                                <span onclick="월증감(0)">◀</span>   <!-- ㅁ+한자키 -->
+                                <span class="calDate"> innerHTML </span>
+                                <span onclick="월증감(1)">▶</span>
+                            </div>
+        
+                            <div class="calender">  <!-- 2-2 달력 -->
+                                innerHTML
+                            </div>
+        
+                        </div>
+                        
+                    </div>
+        
+        </div>
+        <!-- ============== 본문의 사이드바 구역  =================== -->
+        <div id="sidebar">
+
+            <div class="top_side"> 
+                <h3> Category </h3>
+                <ul>
+                    <li> <a href="#">황희찬 일상(4)</a> </li>
+                    <li> <a href="#">황희찬 축구 노하우(5)</a> </li>
+                    <li> <a href="#">황희찬 일대기</a> </li>
+                    <li> <a href="#">황희찬 경력</a> </li>
+                </ul>
+            </div>
+
+            <div class="sub_side">
+                <h3> Recent Articles </h3>
+                <ul>
+                    <li><a href="#">EPL 선수 연봉 TOP10</a></li>
+                    <li><a href="#">대한민국 스쿼드</a></li>
+                    <li><a href="#">새로운 대한민국 국가대표 감독 선임</a></li>
+                    <li><a href="#">FA컵 16강전, 공 다투는 황희찬</a></li>
+                    <li><a href="#">‘EPL 골 결정력’ 황희찬 1위 - 손흥민 3위</a></li>
+                    <li><a href="#">햄스트링 다친 황희찬, 6주 이탈…월드컵 예선 태국전 못 뛸듯</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============== 푸터 =================== -->
+    <div id="footer">
+        <div> &copy ⓒ( ㅇ + 한자키) copyright 2024 EZEN WEB PAGE </div>
+    </div>
+
+
+<!-- HTML 코드가 모두 실행된 후에 js가 실행될수 있도록 가장 아래에 js 호출-->
+    <script src='ezenfinalpage/js/index.js'></script>
+</body>
+
+</html>
+</body>
+</html>
